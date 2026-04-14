@@ -1,0 +1,20 @@
+const GAME_ORDER=[
+    "Shadow Dragon and the Blade of Light",
+    "Gaiden",
+    "Mystery of the Emblem",
+    "Genealogy of the Holy War",
+    "Thracia 776",
+    "The Binding Blade",
+    "The Blazing Blade",
+    "The Sacred Stones",
+    "Path of Radiance",
+    "Radiant Dawn",
+    "Shadow Dragon",
+    "New Mystery of the Emblem",
+    "Awakening",
+    "Fates",
+    "Shadows of Valentia",
+    "Three Houses",
+    "Engage",
+];
+

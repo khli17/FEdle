@@ -4,23 +4,23 @@ export const CHARACTERS = [
         id: "1",
         name: "Marth",
         gender: "Male",
-        age: "Teenager",
         race: "Human",
         weapon: "Sword",
         nationality: "Altea",
         class: "Lord",
-        debutGame: "FE1"
+        debutGame: "FE1",
+        image: "assets\characters\Marth_FE1.webp"
     },
     {
         id: "2",
         name: "Caeda",
         gender: "Female",
-        age: "Teenager",
         race: "Human",
         weapon: ["Sword", "Lance"],
         nationality: "Talys",
         class: "Pegasus Knight",
-        debutGame: "FE1"
+        debutGame: "FE1",
+        image: "assets\characters\Caeda_FE1.webp"
     },
     {
         id: "3",
@@ -298,6 +298,18 @@ export const QUOTES = [
 ]
 
 export const MUSIC = [
+
+    //Fates (14)
+    {   
+        id: "",
+        title: "Far Dawn",
+        displayTitle: "Far Dawn - Fire Emblem: Fates",
+        game: ["Fates", "If", "FE14"],
+        audioUrl: "assets\music\Fates\Far Dawn.mp3",
+        albumArt: ""
+
+    },
+    //SOV (15)
     {
         id: "",
         title: "Echoes",
@@ -361,6 +373,8 @@ export const MUSIC = [
         albumArt: ""
 
     },
+
+    //3H (16)
     {
         id: "",
         title: "As Swift as Wind",

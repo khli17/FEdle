@@ -52,19 +52,43 @@ function randomSeed(seed){
     return x - Math.floor(x);
 }
 
-//for guessing characters
-// function guessCharacter(){
-//     //searching characters/sorting names
-//     const suggestions = guessInput
-//     ? CHARACTERS.filter(c =>
-//         c.name.toLowerCase().includes(guessInput.toLowerCase()) &&
-//         !realGuesses.find(g => g.id === c.id)
-//       ).sort((a, b) => {
-//         const aStarts = a.name.toLowerCase().startsWith(guessInput.toLowerCase());
-//         const bStarts = b.name.toLowerCase().startsWith(guessInput.toLowerCase());
-//         if (aStarts && !bStarts) return -1;
-//         if (!aStarts && bStarts) return 1;
-//         return a.name.localeCompare(b.name);
-//       })
-//     : [];
-// }
+//for character guessing
+
+const charactersList = [];
+let charactersWithLetter = [];
+let selectedCharacters = [];
+let todayCharacter = null;
+let guessed = false;
+let tries = 0;
+//let todayDate = new Date();
+let triesList = [];
+//loadGameState();
+
+fetch("./characters.json").then(response => response.json()).then(data=> {
+    data.forEach(character => {
+        charactersList.push({
+            id: character.id,
+            name: character.name,
+            gender: character.gender,
+            race: character.race,
+            weapon: character.weapon,
+            nationality: character.nationality,
+            class: character.class,
+            debutGame: character.debutGame,
+            image: character.image
+            
+        });
+    });
+}).catch(error => {
+    console.error("Error fetching characters: ", error);
+});
+
+//selecting the daily character for user to guess
+function selectDailyCharacter(){
+    if (charactersList.length === 0){
+        return null;
+    }
+
+    const today = new Date();
+    
+}

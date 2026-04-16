@@ -40,7 +40,8 @@
         "weapon": "Sword",
         "nationality": "Rigel",
         "class": "Fighter",
-        "debutGame": "FE2"
+        "debutGame": "FE2",
+        "image": ""
     },
     {
         "id": "5",
@@ -51,211 +52,212 @@
         "weapon": ["Sword", "Magic"],
         "nationality": "Zofia",
         "class": "Priestess",
-        "debutGame": "FE2"
+        "debutGame": "FE2",
+        "image": ""
     },
     {
-        id: "6",
-        name: "Sigurd",
-        gender: "Male",
-        age: "Adult",
-        race: "Human", 
-        weapon: ["Sword", "Lance"],
-        nationality: ["Duchy of Chalphy", "Kingdom of Grannvale"],
-        class: "Knight Lord",
-        debutGame: "FE4"
+        "id": "6",
+        "name": "Sigurd",
+        "gender": "Male",
+        "race": "Human", 
+        "weapon": ["Sword", "Lance"],
+        "nationality": ["Duchy of Chalphy", "Kingdom of Grannvale"],
+        "class": "Knight Lord",
+        "debutGame": "FE4",
+        "image": ""
     },
     {
         id: "7",
         name: "Sigurd",
         gender: "Male",
-        age: "Adult",
         race: "Human", 
         weapon: ["Sword", "Lance"],
         nationality: ["Duchy of Chalphy", "Kingdom of Grannvale"],
         class: "Knight Lord",
-        debutGame: "FE4"
+        debutGame: "FE4",
+        "image": ""
     },
     {
         id: "8",
         name: "Deirdre",
         gender: "Female",
-        age: "Adult",
         race: "Human", 
         weapon: ["Magic"],
         nationality: ["Belhalla", "Kingdom of Grannvale", "Verdane"],
         class: "Light Priestess",
-        debutGame: "FE4"
+        debutGame: "FE4",
+        "image": ""
     },
     {
         id: "9",
         name: "Seliph",
         gender: "Male",
-        age: "Teenager",
         race: "Human", 
         weapon: "Sword",
         nationality: ["Duchy of Chalphy", "Kingdom of Grannvale"],
         class: "Junior Lord",
-        debutGame: "FE4"
+        debutGame: "FE4",
+        "image": ""
     },
     {
         id: "10",
         name: "Julia",
         gender: "Female",
-        age: "Teenager",
         race: "Human", 
         weapon: "Magic",
         nationality: "Empire of Grannvale",
         class: "Light Priestess",
-        debutGame: "FE4"
+        debutGame: "FE4",
+        "image": ""
     },
     {
         id: "11",
         name: "Lief",
         gender: "Male",
-        age: "Teenager",
         race: "Human", 
         weapon: "Sword",
         nationality: "Leonster",
         class: ["Prince", "Lord"],
-        debutGame: "FE4"
+        debutGame: "FE4",
+        "image": ""
     },
     {
         id: "12",
         name: "Nana",
         gender: "Female",
-        age: "Teenager",
         race: "Human", 
         weapon: ["Sword", "Staff"],
         nationality: ["Augstria", "Nordion"],
         class: "Troubadour",
-        debutGame: "FE4"
+        debutGame: "FE4",
+        "image": ""
     },
     {
         id: "13",
         name: "Roy",
         gender: "Male",
-        age: "Teenager",
         race: "Human", 
         weapon: "Sword",
         nationality: "Pherae",
         class: "Lord",
-        debutGame: "FE6"
+        debutGame: "FE6",
+        "image": ""
     },
     {
         id: "14",
         name: "Lilina",
         gender: "Female",
-        age: "Teenager",
         race: "Human", 
         weapon: "Magic",
         nationality: "Lycia",
         class: "Mage",
-        debutGame: "FE6"
+        debutGame: "FE6",
+        "image": ""
     },
     {
         id: "15",
         name: "Lyn",
         gender: "Female",
-        age: "Teenager",
         race: "Human", 
         weapon: "Sword",
         nationality: ["Sacae", "Lycia"],
         class: "Lord",
-        debutGame: "FE7"
+        debutGame: "FE7",
+        "image": ""
     },
     {
         id: "16",
         name: "Eliwood",
         gender: "Male",
-        age: ["Teenager", "Adult"],
         race: "Human", 
         weapon: ["Sword", "Lance"],
         nationality: "Lycia",
         class: ["Paladin", "Lord"],
-        debutGame: "FE6"
+        debutGame: "FE6",
+        "image": ""
     },
     {
         id: "17",
         name: "Hector",
         gender: "Male",
-        age: ["Teenager", "Adult"],
         race: "Human", 
         weapon: ["Axe", "Lance"],
         nationality: "Lycia",
         class: ["Lord", "General"],
-        debutGame: "FE6"
+        debutGame: "FE6",
+        "image": ""
     },
     {
         id: "18",
         name: "Eirika",
         gender: "Female",
-        age: "Teenager",
         race: "Human", 
         weapon: "Sword",
         nationality: "Renais",
         occupation: "Princess",
         class: "Lord",
-        debutGame: "FE8"
+        debutGame: "FE8",
+        "image": ""
     },
     {
         id: "19",
         name: "Ephraim",
         gender: "Male",
-        age: "Teenager",
         race: "Human", 
         weapon: "Lance",
         nationality: "Renais",
         occupation: ["Prince", "King"],
         class: "Lord",
-        debutGame: "FE8"
+        debutGame: "FE8",
+        "image": ""
     },
     {
         id: "20",
         name: "Tana",
         gender: "Female",
-        age: "Teenager",
         race: "Human", 
         weapon: "Lance",
         nationality: "Frelia",
         occupation: "Princess",
         class: "Pegasus Knight",
-        debutGame: "FE8"
+        debutGame: "FE8",
+        "image": ""
     },
     {
-        id: "21",
-        name: "Innes",
-        gender: "Male",
-        age: "Teenager",
-        race: "Human", 
-        weapon: "Bow",
-        nationality: "Frelia",
-        occupation: ["Prince", "King"],
-        class: "Sniper",
-        debutGame: "FE8"
+        "id": "21",
+        "name": "Innes",
+        "gender": "Male",
+        "race": "Human", 
+        "weapon": "Bow",
+        "nationality": "Frelia",
+        "occupation": ["Prince", "King"],
+        "class": "Sniper",
+        "debutGame": "FE8",
+        "image": ""
     },
     {
-        id: "22",
-        name: "L'Arachel",
-        gender: "Female",
-        age: "Teenager",
-        race: "Human", 
-        weapon: "Staff",
-        nationality: "Rausten",
-        occupation: "Princess",
-        class: "Troubadour",
-        debutGame: "FE8"
+        "id": "22",
+        "name": "L'Arachel",
+        "gender": "Female",
+        "race": "Human", 
+        "weapon": "Staff",
+        "nationality": "Rausten",
+        "occupation": "Princess",
+        "class": "Troubadour",
+        "debutGame": "FE8",
+        "image": ""
     },
     {
-        id: "23",
-        name: "Ike",
-        gender: "Male",
-        age: "Teenager",
-        race: "Human", 
-        weapon: "Sword",
-        nationality: "Crimea",
-        occupation: "Mercenary",
-        class: ["Ranger", "Hero"],
-        debutGame: "FE9"
+        "id": "23",
+        "name": "Ike",
+        "gender": "Male",
+        "race": "Human", 
+        "weapon": "Sword",
+        "nationality": "Crimea",
+        "occupation": "Mercenary",
+        "class": ["Ranger", "Hero"],
+        "debutGame": "FE9",
+        "image": ""
     },
     {
         id: "2",
@@ -267,7 +269,8 @@
         nationality: "Atlea",
         occupation: "Princess",
         class: "Troubadour",
-        debutGame: "FE11"
+        debutGame: "FE11",
+        "image": ""
     },
 ]
 
